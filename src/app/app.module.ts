@@ -5,11 +5,17 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { MenuComponent } from './menu/menu.component';
+import { EntrarComponent } from './entrar/entrar.component';
+import { RodapeComponent } from './rodape/rodape.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MenuComponent
+    MenuComponent,
+    EntrarComponent,
+    RodapeComponent,
+    CadastrarComponent
   ],
   imports: [
     BrowserModule,
